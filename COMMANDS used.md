@@ -108,3 +108,9 @@ git push origin main (entering ID and token generated from github)
 git push origin BRANCH1
 
 git push origin BRANCH2
+
+
+
+
+Multiline command
+git commit -m "update1" -m "update 2"
