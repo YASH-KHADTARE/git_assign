@@ -111,6 +111,15 @@ git push origin BRANCH2
 
 
 
-
+.How to commit multiple line
 Multiline command
 git commit -m "update1" -m "update 2"
+
+How to change commit Mesg
+use soft reset and again comit with new message
+
+
+How to get my code back if I do git stash
+use git stash apply command
+git stash apply stash@{0}
+
