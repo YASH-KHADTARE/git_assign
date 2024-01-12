@@ -6,20 +6,20 @@ git checkout -b BRANCH1 (create branch 1)
 
 vi B1.txt (Create text files)
 
-vi B2.txt
+vi B2.txt (Create text files)
 
-git status
+git status (Shows the status)
 
 git add . (add all fies)
 
 git commit -m "ADD files"
 
 git checkout -b BRANCH2 
-vi C1.txt
+vi C1.txt (Create text files)
 
-vi C2.txt 
+vi C2.txt (Create text files)
 
-git status
+git status 
 
 git add . (add all fies)
 
