@@ -4,4 +4,4 @@ STEPS -
 1- First identify the coomit and copy its ID
 2- swtich to our desired branch
 3- type : git cherry-pick (copied commit ID)
-(Resolve conflicts is any...)edited  
+(Resolve conflicts is any...)
