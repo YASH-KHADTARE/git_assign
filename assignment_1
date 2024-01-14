@@ -1,3 +1,5 @@
+ASSIGNMENT_1 (only codes are given as follows , all questions solved ) 
+(DUE TO TWO ASSIGNMENTS PREVIOUS BRANCHES ARE DELETED AND TWO NEW ARE FORMED)
 git init 
 
 vi master_file.txt  (create a master file)
@@ -110,16 +112,18 @@ git push origin BRANCH1
 git push origin BRANCH2
 
 
+QUESTIONS ASKED IN CLASS -
 
 .How to commit multiple line
-Multiline command
+Multiline command -
 git commit -m "update1" -m "update 2"
 
 How to change commit Mesg
-use soft reset and again comit with new message
+use git commit --amend -m "New message"
+ 
 
 
 How to get my code back if I do git stash
-use git stash apply command
+use git stash apply command as follows -
 git stash apply stash@{0}
 
