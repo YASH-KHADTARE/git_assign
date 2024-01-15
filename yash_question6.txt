@@ -1,3 +1,5 @@
+
+
  How to un stage changes from the staged area. write command for it.
  git reset --soft HEAD~1 , is used to unstage changes from staged area
  
