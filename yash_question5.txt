@@ -1,0 +1,15 @@
+Difference between --force push and --force-with-lease, You have to show the use of both, also you have to show in what scenario --force-with-lease is used?
+
+-- force : is used when we are very much sure about are chnages and want to overwrite the remote history.
+git push origin Branch --force
+
+
+--force-with-lease : it forces the overwrite of remote only if no one else has updated the remote branch since our last fetch
+git push origin Branch --force-with-lease
+
+
+USE CASE :
+suppose another person is working with me on same repo,
+Now he made some changes and pushed it on repo, if i use the "--force" his changes will be overwritten by me , which may be a bit risky
+on the other hand, IF 
+I use "--force-with-lease" it will check the remote is updated or not , if yes then it will prevent unwanted overwrite.

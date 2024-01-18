@@ -1,0 +1,7 @@
+What is cherry-pick? Explain the use case of it also write steps to do it.
+A simple meaning of cherry pick is to take other specific commit in our branch, ie to copy other commit. This is done to take that changes and apply on our file
+STEPS -
+1- First identify the coomit and copy its ID
+2- swtich to our desired branch
+3- type : git cherry-pick (copied commit ID)
+(Resolve conflicts is any...)
